@@ -44,7 +44,7 @@ const Navbar = ({ appname }) => {
               Contact
             </NavLink>
 
-            <NavLink
+            {/* <NavLink
               to="/login"
               className={({ isActive }) =>
                 `grad-blue-bg text-white px-4 py-2 rounded ${
@@ -53,7 +53,7 @@ const Navbar = ({ appname }) => {
               }
             >
               Login
-            </NavLink>
+            </NavLink> */}
           </div>
         </nav>
       </div>

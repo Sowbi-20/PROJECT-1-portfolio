@@ -7,7 +7,7 @@ const Profile = () => {
             <div className="text-white  mb-10">
                 <div>
                     <h1 className="text-neutral-300 text-6xl font-bold font-serif mb-4">I'm Sowbarnika</h1>
-                    <p className="text-neutral-300 text-3xl">      a passionate and dedicated student 
+                    <p className="text-neutral-300 text-3xl">      A passionate and dedicated student 
                         eager to embark <br/> on a career in web development.With a strong foundation in<br/> 
                         HTML, CSS, and JavaScript, I enjoy creating dynamic and <br/>responsive web applications. 
                         I thrive on learning new technologies and <br/>improving my skills to build innovative solutions.

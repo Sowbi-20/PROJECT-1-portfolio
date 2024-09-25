@@ -1,9 +1,9 @@
 import React from "react";
-import {FaEnvelope,FaPhone,FaMapMarkedAlt} from 'react-icons/fa'
+import {FaEnvelope,FaPhone,FaMapMarkedAlt,FaLinkedin,FaGithub} from 'react-icons/fa'
 
 const Contact = () => {
     return (
-        <div className="h-screen w-full backs text-2xl pb-80 flex flex-col justify-center items-center top-10 right-10">
+        <div className="h-[90vh] w-full backs text-2xl pb-80 flex flex-col justify-center items-center top-10 right-10">
             <div className="text-slate-50 font-mono" >
                 <h2 className="text-5xl font-bold text-center mb-12">Get In Touch</h2>
                 <div className="flex flex-col md:flex-row items-center md:space-x-12"></div>
@@ -27,6 +27,31 @@ const Contact = () => {
                         rel="noopener noreferrer"
                         className="hover:underline">
                         Perumanalur, Tirupur, Tamil Nadu
+                    </a>
+                </div>
+                 {/* LinkedIn */}
+                 <div className="mb-4 mt-8">
+                    <FaLinkedin className="inline-block text-green-300 mr-2" />
+                    <a
+                        href="https://www.linkedin.com/in/your-linkedin-id/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="hover:underline"
+                    >
+                        LinkedIn
+                    </a>
+                </div>
+
+                {/* GitHub */}
+                <div className="mb-4 mt-8">
+                    <FaGithub className="inline-block text-green-300 mr-2" />
+                    <a
+                        href="https://github.com/Sowbi-20https://www.linkedin.com/in/sowbarnika-pn-a65379277/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="hover:underline"
+                    >
+                        GitHub
                     </a>
                 </div>
             </div>
