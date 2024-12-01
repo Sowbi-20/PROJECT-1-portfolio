@@ -1,5 +1,5 @@
 import React from "react";
-import Profimages from '../assets/images/profile1.jpeg'
+import Profimages from '../assets/images/resume.jpeg'
 
 const Profile = () => {
     return (
@@ -10,15 +10,15 @@ const Profile = () => {
                     <p className="text-neutral-300 text-3xl">      A passionate and dedicated student 
                         eager to embark <br/> on a career in web development.With a strong foundation in<br/> 
                         HTML, CSS, and JavaScript, I enjoy creating dynamic and <br/>responsive web applications. 
-                        I thrive on learning new technologies and <br/>improving my skills to build innovative solutions.
+                        I thrive on learning new <br/>technologies and improving my skills to build <br/>innovative solutions.
                     </p>
                     
                 </div>
                 <div className="absolute top-40 right-40 p-5">
                 <img 
                     src={Profimages} alt="Profile"
-                    className="rounded-full shadow-lg w-96 h-96 object-cover"    
-                />
+                    className="rounded-full w-96 h-96 transition-transform scale-110"    
+                    />
                 </div>
             </div>
         </div>
